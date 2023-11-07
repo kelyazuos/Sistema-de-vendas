@@ -120,6 +120,88 @@ Será construido um sistema de vendas com cadastro de funcionários na base de d
    - **RNF15:** O sistema deve ser escalável, permitindo a adição de mais usuários, produtos e transações sem comprometer o desempenho.
 
 
+     Com base nos requisitos funcionais fornecidos, é possível identificar vários casos de uso para o sistema de vendas em C#. Aqui estão alguns exemplos de casos de uso:
+
+## Casos de Uso do Sistema de Vendas:
+
+#### 1. **Autenticação do Usuário:**
+   - **Ator:** Funcionário
+   - **Descrição:** O funcionário fornece suas credenciais (nome de usuário e senha) para acessar o sistema.
+   - **Fluxo Principal:**
+     1. O sistema exibe a tela de login.
+     2. O funcionário insere seu nome de usuário e senha.
+     3. O sistema valida as credenciais.
+     4. Se as credenciais forem válidas, o funcionário é autenticado e pode acessar o sistema.
+
+#### 2. **Gerenciamento de Funcionários:**
+   - **Ator:** Administrador
+   - **Descrição:** O administrador pode adicionar, visualizar, atualizar e excluir informações de funcionários no sistema.
+   - **Fluxo Principal:**
+     1. O administrador seleciona a opção de gerenciamento de funcionários.
+     2. O sistema exibe a lista de funcionários.
+     3. O administrador pode adicionar um novo funcionário, editar as informações de um funcionário existente ou excluir um funcionário.
+
+#### 3. **Gerenciamento de Produtos:**
+   - **Ator:** Administrador
+   - **Descrição:** O administrador pode adicionar, visualizar, atualizar e excluir informações de produtos no sistema.
+   - **Fluxo Principal:**
+     1. O administrador seleciona a opção de gerenciamento de produtos.
+     2. O sistema exibe a lista de produtos disponíveis.
+     3. O administrador pode adicionar um novo produto, editar as informações de um produto existente ou excluir um produto.
+
+#### 4. **Realização de Vendas:**
+   - **Ator:** Funcionário
+   - **Descrição:** O funcionário pode selecionar produtos para venda, calcular o total, aplicar descontos, finalizar a venda e gerar uma nota fiscal.
+   - **Fluxo Principal:**
+     1. O funcionário seleciona produtos da lista de produtos disponíveis.
+     2. O sistema calcula o valor total da compra.
+     3. O funcionário aplica descontos, se houver.
+     4. O funcionário finaliza a venda, indicando o método de pagamento.
+     5. O sistema gera uma nota fiscal para a venda.
+
+#### 5. **Geração de Relatórios:**
+   - **Ator:** Funcionário
+   - **Descrição:** O funcionário pode gerar relatórios diários de vendas e visualizar o histórico de vendas por funcionário.
+   - **Fluxo Principal:**
+     1. O funcionário seleciona a opção de geração de relatórios.
+     2. O sistema permite ao funcionário escolher entre relatório diário ou histórico de vendas por funcionário.
+     3. O sistema gera o relatório solicitado e o exibe para o funcionário.
+
+As regras de negócio definem as políticas, diretrizes e restrições que guiam o comportamento do sistema. Elas ajudam a garantir a consistência dos dados e a lógica de negócios em toda a aplicação. Com base nos requisitos apresentados, aqui estão algumas regras de negócio para o sistema de vendas em C#:
+
+### Regras de Negócio:
+
+#### 1. **Autenticação de Usuários:**
+   - **RN1:** Apenas usuários cadastrados no sistema podem fazer login.
+   - **RN2:** As credenciais de login (nome de usuário e senha) devem ser validadas antes de permitir o acesso ao sistema.
+
+#### 2. **Gerenciamento de Funcionários:**
+   - **RN3:** O nome de usuário de um funcionário deve ser único no sistema.
+   - **RN4:** Todos os funcionários devem ter um cargo atribuído (por exemplo, vendedor, gerente).
+   - **RN5:** Um funcionário não pode ser excluído se tiver registros de vendas associados a ele.
+
+#### 3. **Gerenciamento de Produtos:**
+   - **RN6:** O código de identificação único de um produto (SKU) deve ser único no sistema.
+   - **RN7:** O preço de um produto não pode ser negativo ou zero.
+   - **RN8:** A quantidade em estoque de um produto não pode ser negativa.
+
+#### 4. **Realização de Vendas:**
+   - **RN9:** O sistema deve calcular corretamente o valor total da venda com base nos produtos selecionados e nos descontos aplicados.
+   - **RN10:** O sistema deve calcular corretamente o troco, se o cliente pagar com um valor superior ao total da compra.
+   - **RN11:** A venda só pode ser finalizada se houver pelo menos um produto na lista de itens vendidos.
+
+#### 5. **Geração de Relatórios:**
+   - **RN12:** Os relatórios diários de vendas devem incluir informações precisas sobre vendas, lucros e gastos do dia.
+   - **RN13:** O histórico de vendas por funcionário deve ser preciso e mostrar todas as vendas realizadas por um funcionário específico.
+
+#### 6. **Segurança:**
+   - **RN14:** A senha do usuário deve ser armazenada de forma segura, utilizando técnicas de hash e salt para proteger contra acesso não autorizado.
+   - **RN15:** As transações devem ser protegidas contra acessos não autorizados. Apenas usuários autenticados têm permissão para realizar vendas ou acessar informações confidenciais.
+
+#### 7. **Outras Regras:**
+   - **RN16:** O sistema deve manter um registro de todas as transações de vendas, incluindo informações sobre produtos vendidos, horário da venda, valor total, descontos aplicados e funcionário responsável.
+
+
   
   
 
