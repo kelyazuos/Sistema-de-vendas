@@ -41,6 +41,35 @@ Este projeto emprega conceitos avançados de bancos de dados relacionais, como c
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
 ---
+
+# Objetivo do Projeto
+
+O principal objetivo deste projeto é desenvolver um sistema abrangente de gestão de vendas que ofereça uma solução completa e integrada para otimizar os processos comerciais. Através da implementação de um conjunto de funcionalidades, o sistema visa atender às seguintes metas:
+
+## 1. Automação Operacional:
+- Automatizar as principais operações comerciais, desde o cadastro de funcionários e produtos até a conclusão de vendas, proporcionando eficiência e redução de erros manuais.
+
+## 2. Controle de Acesso Seguro:
+- Implementar um sistema de autenticação seguro para controlar o acesso de usuários, garantindo a confidencialidade das informações e a integridade do sistema.
+
+## 3. Gestão Eficiente de Produtos:
+- Facilitar o gerenciamento de produtos através de funcionalidades CRUD (Create, Read, Update, Delete), possibilitando a rápida adaptação às mudanças no catálogo.
+
+## 4. Operações Comerciais Avançadas:
+- Possibilitar a realização de vendas através de produtos cadastrados, com cálculos automatizados de valores totais, descontos e trocos, proporcionando uma experiência de compra eficiente.
+
+## 5. Registro Detalhado de Transações:
+- Registrar informações detalhadas sobre cada venda, incluindo data, horário, produtos vendidos e usuário responsável, para análises precisas de desempenho e tomada de decisões informada.
+
+## 6. Geração Automática de Notas Fiscais:
+- Implementar um mecanismo de geração automática de notas fiscais eletrônicas, garantindo conformidade com regulamentações fiscais locais e simplificando processos burocráticos.
+
+## 7. Análise de Desempenho e Lucratividade:
+- Fornecer ferramentas para análise de desempenho comercial, permitindo a avaliação de lucros, gastos e outras métricas relevantes.
+
+## 8. Adoção de Boas Práticas de Desenvolvimento:
+- Seguir boas práticas de desenvolvimento de software, como o uso de testes unitários, documentação adequada, e otimização de consultas SQL para garantir a confiabilidade, manutenibilidade e desempenho do sistema.
+
 ## ESQUELETO GERAL DO PROJETO 
 
 1. Configuração do Banco de Dados: 
