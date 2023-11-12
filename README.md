@@ -40,8 +40,6 @@ Este projeto emprega conceitos avançados de bancos de dados relacionais, como c
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
 
----
-
 # Objetivo do Projeto
 
 O principal objetivo deste projeto é desenvolver um sistema abrangente de gestão de vendas que ofereça uma solução completa e integrada para otimizar os processos comerciais. Através da implementação de um conjunto de funcionalidades, o sistema visa atender às seguintes metas:
@@ -70,7 +68,7 @@ O principal objetivo deste projeto é desenvolver um sistema abrangente de gest�
 ## 8. Adoção de Boas Práticas de Desenvolvimento:
 - Seguir boas práticas de desenvolvimento de software, como o uso de testes unitários, documentação adequada, e otimização de consultas SQL para garantir a confiabilidade, manutenibilidade e desempenho do sistema.
 
-## ESQUELETO GERAL DO PROJETO 
+# ESQUELETO GERAL DO PROJETO 
 
 1. Configuração do Banco de Dados: 
 
