@@ -2,6 +2,45 @@
 
 Será construido um sistema de vendas com cadastro de funcionários na base de dados, cadastro de produtos, venda com base nos produtos cadastrados. Serão feitas validações de login a partir dos usuários cadastrados na base de dados através de consultas sql. Será possível fazer CRUD (create, read, update, delete), na maioria das informações e diversas tabelas relacionais, do projeto, além de trabalhar diversos conceitos de SQL como joins, foreign key. primary key, dentre outros. Dentro da aplicação será possível executar vendas, que serão realizadas através de produtos cadastrados, onde suas informações vão servir para trazer um processo totalmente automatizado de cálculos de valor total, descontos e trocos. Além disso todas as vendas finalizadas irão gerar notas fiscais e também vão gerar registros na base de dados onde serão armazenadas informações sobre as vendas como: horário, data, usuário que efetuou a venda vendas daquele dia, lucros e gastos.
 
+# Sistema de Gestão de Vendas
+
+## Introdução
+
+A eficiência e automação são pilares fundamentais no ambiente empresarial moderno, impulsionados pela incessante busca por otimização de processos e aprimoramento da gestão. Diante dessa demanda, apresentamos o Sistema de Gestão de Vendas, uma solução abrangente que visa integrar desde o cadastro de funcionários e produtos até a conclusão de vendas e o registro minucioso de transações.
+
+Este projeto emprega conceitos avançados de bancos de dados relacionais, como chaves primárias e estrangeiras, e implementa funcionalidades essenciais, incluindo autenticação de usuários, geração automática de notas fiscais e um sistema de registros para análise detalhada das operações comerciais.
+
+## Funcionalidades Principais
+
+- Cadastro eficiente de funcionários e produtos.
+- Realização de vendas com cálculos automáticos de valores totais, descontos e trocos.
+- Geração automática de notas fiscais eletrônicas para conformidade com regulamentações fiscais.
+- Registros detalhados de transações para análise de desempenho, lucratividade e tomada de decisões estratégicas.
+
+## Tecnologias Utilizadas
+
+- Linguagem: Python
+- Banco de Dados: SQL Sever
+- ORM: SQLAlchemy
+- Criptografia: [Inserir Biblioteca]
+- Outras dependências especificadas no arquivo `requirements.txt`
+
+## Instalação
+
+1. Clone o repositório: `git clone https://github.com/kelyazuos/Sistema-de-vendas.git`
+2. Instale as dependências: `pip install -r requirements.txt`
+3. Configure o ambiente e o banco de dados conforme necessário.
+
+## Uso
+
+1. Execute o sistema: `python main.py`
+2. Acesse a aplicação pelo navegador ou cliente.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+---
 ## ESQUELETO GERAL DO PROJETO 
 
 1. Configuração do Banco de Dados: 
